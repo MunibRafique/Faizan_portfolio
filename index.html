@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Naat ki Duniya</title>
+  <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+  <section class="hero">
+     <div class="content">
+    <div class="profile-pic">
+      <img src="images/profile.jpg" alt="Munib Profile" />
+    </div>
+      <h1>Naat ki Duniya</h1>
+      <p>Photographer | 🎬 Videographer | 🔴 Live Streamer</p>
+      <div class="nav-buttons">
+  <a href="#about" class="nav-btn">About</a>
+  <a href="#projects" class="nav-btn">Projects</a>
+  <a href="#links" class="nav-btn">Links</a>
+  <a href="#contact" class="nav-btn">Contact</a>
+</div>
+      <section id="about" class="about">
+  <h2>About Me</h2>
+  <p>
+    Hi, I am <strong>Muhammad Faizan Memon</strong> — aik passionate photographer, videographer aur live streamer.  
+    Tasveerain lena sirf mera kaam nahi, yeh meri zindagi ka junoon hai.  
+    Har click mein mein koshish karta hoon ke lamha sirf dikhai na de, mehsoos bhi ho.  
+    Weddings, events, portraits ya live streaming ho — mein har project mein apni creativity aur perfection le kar aata hoon.  
+    Har muskurahat, har emotion ko mein camera ke zariye hamesha ke liye qaid kar deta hoon.  
+    </p>
+  <a href="images/cv.jpg" download="My_CV.jpg" class="btn">
+  Download CV
+</a>
+</section>
+<section class="projects">
+  <h2>Projects</h2>
+
+  <!-- Project 1 -->
+ <!-- Project 1 -->
+<section id="projects">
+  <h2>Projects</h2>
+<div class="project-box">
+  <div class="project-images">
+    <img src="images/project1a.jpg" alt="Project 1 Image 1"/>
+    <img src="images/project1b.jpg" alt="Project 1 Image 2"/>
+  </div>
+  <h3>Live | Haji Abdul Habib Attari Special Speech | Jumma Mubarak...</h3>
+  <a href="https://www.youtube.com/live/d6DP8QRFBZo?si=mHNB9jPjCIZ1EsmA" target="_blank" class="watch-button">▶ Watch Full Video</a>
+</div>
+
+<!-- Project 2 -->
+<div class="project-box">
+  <div class="project-images">
+    <img src="images/project2a.jpg" alt="Project 2 Image 1"/>
+    <img src="images/project2b.jpg" alt="Project 2 Image 2"/>
+  </div>
+  <h3>Madni Kafla of Madni Channel Naatkhuaw | Competition | Team A,B</h3>
+  <a href="https://youtu.be/zc751yyLvXc?si=AuQShoTwhsqbsbAP" target="_blank" class="watch-button">▶ Watch Full Video</a>
+</div>
+<section id="links">
+  <h2>Links</h2>
+<div class="social-links">
+  <a href="https://www.facebook.com/share/1SoXqpwNDD/" target="_blank">
+    <i class="fab fa-facebook-f"></i>
+  </a>
+  <a href="https://youtube.com/@officialnaatkidunya?si=41rm96Sf7adHhYbn" target="_blank">
+    <i class="fab fa-youtube"></i>
+  </a>
+  <a href="https://www.instagram.com/official_naat_ki_dunya?igsh=ZnB0dGZuaWZxbGU1" target="_blank">
+    <i class="fab fa-instagram"></i>
+  </a>
+</div>
+<div class="dark-toggle" onclick="toggleDarkMode()">
+  <i class="fas fa-moon"></i>
+</div>
+
+<script>
+  function toggleDarkMode() {
+    document.body.classList.toggle("dark-mode");
+    const icon = document.querySelector(".dark-toggle i");
+    if (document.body.classList.contains("dark-mode")) {
+      icon.classList.remove("fa-moon");
+      icon.classList.add("fa-sun");
+    } else {
+      icon.classList.remove("fa-sun");
+      icon.classList.add("fa-moon");
+    }
+  }
+</script>
+<section id="contact" class="contact-section">
+  <h2>Contact Me</h2>
+  
+  <<div class="contact-info">
+  <p>
+    <strong>Email:</strong>
+    <a href="mailto:naatkidunya901@gmail.com">naatkidunya901@gmail.com</a>
+  </p>
+  <p>
+    <strong>WhatsApp:</strong>
+    <a href="https://wa.me/923134963901" target="_blank">+92 313 4963901</a>
+  </p>
+</div>
+
+  <form class="contact-form">
+    <input type="text" placeholder="Your Name" required>
+    <input type="email" placeholder="Your Email" required>
+    <textarea rows="5" placeholder="Your Message" required></textarea>
+    <button type="submit">Send Message</button>
+  </form>
+</section>
+
+</section>
+    </div>
+  </section>
+</body>
+</html>
